@@ -20,7 +20,7 @@
     "hubot-slack": "^4.2.2"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "6.6.x"
   },
   "devDependencies": {
     "chai": "^3.5.0",
