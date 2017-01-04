@@ -1,0 +1,7 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - echo Deploying master
+      - git remote add dokku dokku@obley.net:pi-hubot
+      - git push dokku master
